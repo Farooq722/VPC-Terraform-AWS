@@ -6,8 +6,8 @@ on:
         branches:
             - 'main'
 env:
-    AWS_ACCESS_KEY: ${{secrets.AWS_ACCESS_KEY}}
-    AWS_SECRET_ACCESS_KEY: ${{secrets.AWS_SECRET_ACCESS_KEY}}
+    AWS_ACCESS_KEY: ${{ #ADD YOUR AWS ACCESS KEY HERE }}
+    AWS_SECRET_ACCESS_KEY: ${{ #ADD YOUR AWS SECRET ACCES KEY HERE }}
 
 jobs:
     build-infra:
