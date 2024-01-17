@@ -8,7 +8,7 @@ on:
 env:
     AWS_ACCESS_KEY: ${{ #ADD YOUR AWS ACCESS KEY HERE }}
     AWS_SECRET_ACCESS_KEY: ${{ #ADD YOUR AWS SECRET ACCES KEY HERE }}
-
+    #To add access keys you need to go to settings -> security(section) -> actions -> Repository secrets add new repository secret ( separate for both access key and access secret key)
 jobs:
     build-infra:
         name: terraform-ci-cd
